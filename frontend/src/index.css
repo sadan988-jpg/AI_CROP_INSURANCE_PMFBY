@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans selection:bg-agri-200 selection:text-agri-900;
+  }
+}
+
+/* Custom Agricultural Glows & Badges */
+.agri-card {
+  @apply bg-white rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all duration-200;
+}
+
+.agri-gradient {
+  background: linear-gradient(135deg, #15803d 0%, #166534 100%);
+}
+
+.agri-header-gradient {
+  background: linear-gradient(135deg, #052e16 0%, #14532d 50%, #15803d 100%);
+}
+
+.officer-header-gradient {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #065f46 100%);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+

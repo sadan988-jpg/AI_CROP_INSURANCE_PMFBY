@@ -1,0 +1,38 @@
+from backend.app.models.entities import (
+    User,
+    Farmer,
+    Officer,
+    Crop,
+    InsurancePolicy,
+    CropImage,
+    AiAnalysisReport,
+    DiseaseDetection,
+    PestDetection,
+    TreatmentRecommendation,
+    TreatmentHistory,
+    InsuranceClaim,
+    ClaimVerification,
+    FieldInspection,
+    WeatherRecord,
+    Notification,
+)
+
+__all__ = [
+    "User",
+    "Farmer",
+    "Officer",
+    "Crop",
+    "InsurancePolicy",
+    "CropImage",
+    "AiAnalysisReport",
+    "DiseaseDetection",
+    "PestDetection",
+    "TreatmentRecommendation",
+    "TreatmentHistory",
+    "InsuranceClaim",
+    "ClaimVerification",
+    "FieldInspection",
+    "WeatherRecord",
+    "Notification",
+]
+
